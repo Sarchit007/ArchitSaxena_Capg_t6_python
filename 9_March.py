@@ -26,6 +26,11 @@ static method:
 ->It is defined using the @staticmethod decorator.
 ->Static methods are usually used for utility functions that are related to a class but do not need access to class or instance data.
 
+Abstraction:
+->Hiding internal implementation details and showing only necessary features.
+->Hiding internal details
+
+
 '''
 
 # class College:
@@ -98,5 +103,20 @@ class Student:
 # print(s2.s_age)
 
  
+# Abstraction example
 
+# class Car:
+    
+#     def __init__(self):
+#         self.acc = False
+#         self.clutch = False
+#         self.brk = False
+        
+#     def start(self):
+#         self.acc = True
+#         self.clutch = True
+#         print("Car started.....")
+        
+# c1 = Car()
+# c1.start()
     
